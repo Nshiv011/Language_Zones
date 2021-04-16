@@ -26,14 +26,10 @@ code {
 }
 .Component-1-1 {
 
-  width: 344px;
-
-  height: 90px;
-
-  margin: 27px;
-  margin-left: 149px;
-
-  object-fit: contain;
+  width: 194px;
+height: 90px;
+margin: 17px 7px 27px 29px;
+object-fit: contain;
 
 }
 .Component-1-1:hover{

@@ -1605,14 +1605,20 @@ margin-right: -20px;
 .whatsapp a:visited{
   color: lime;
 }
-.message a:visited{
+.message a:link{
   color: red;
 }
 .locate a:visited{
   color: white;
 }
-a:link{
+.phone a:link{
   color: white;
+}
+.email a:link{
+  color: white;
+}
+a:link{
+  color: black;
   text-decoration: none;
 }
 a:visited{

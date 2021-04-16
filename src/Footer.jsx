@@ -57,7 +57,7 @@ Uttarakhand. We provide Japanese, French, Spanish,
 
 <div className='col-sm-3 body'>
     <h1 className='location'>Location</h1>
-    <p><a href="https://g.page/BrillicaServices?share">2nd floor, above suvidha Supermarket<br/>
+    <p className="locate"><a href="https://g.page/BrillicaServices?share">2nd floor, above suvidha Supermarket<br/>
 Patel Nagar, Dehradun,<br/>
 Uttarakhand 248001</a>
 </p>

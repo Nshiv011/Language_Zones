@@ -1605,9 +1605,13 @@ margin-right: -20px;
 .whatsapp a:visited{
   color: lime;
 }
+
+.message a:visited{
+  color: red;
+}
 .locate a:visited{
   color: white;
-}
+} 
 a:link{
   color: white;
   text-decoration: none;
@@ -1622,3 +1626,4 @@ a:visited{
 .no a:link{
   color: #000;
 }
+

@@ -1608,7 +1608,13 @@ margin-right: -20px;
 .message a:visited{
   color: red;
 }
-.locate a:visited{
+.locate a:link{
+  color: white;
+}
+.phone a:link{
+  color: white;
+}
+.email a:link{
   color: white;
 }
 a:link{

@@ -2,10 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fhvy075qb2xc/public_html/
-<<<<<<< HEAD
     - /bin/cp -R images $DEPLOYPATH
-=======
-    - /bin/cp * $DEPLOYPATH
-    
-    
->>>>>>> f2f7fc96d92d567f98df9b8564191be091aaf3d1

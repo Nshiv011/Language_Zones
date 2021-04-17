@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/fhvy075qb2xc/public_html/
     - /bin/cp * $DEPLOYPATH
     
+    

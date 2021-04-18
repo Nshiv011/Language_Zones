@@ -8,7 +8,7 @@ import ilets from '../src/Images/ilets.png';
 const Navbar=()=>{
     return (
         <>
-<div className="container-fluid Component-33-1">
+<div className="container Component-33-1">
         <div className="row">
         <a href="./">
         <img src={lang} class="Component-1-1"/>

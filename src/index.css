@@ -180,6 +180,9 @@ height: 42px;
 .hero{
   width: 100%;
   height: 590px;
+  background-image: url("../src/Images/hero.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .heroo{
   position: relative;
@@ -190,7 +193,9 @@ height: 42px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 0rem !important;}
+  padding: 0rem 0rem !important;
+  width: 100%;
+}
 
 .footer{
   background-color: #383534;

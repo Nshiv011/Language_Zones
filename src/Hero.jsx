@@ -7,7 +7,7 @@ const Hero=()=>{
     <div className='row'>
         <div className="hero">
 
-            <img className='hero' src={heroimg} />
+            {/* <img className='hero' src={heroimg} /> */}
             <div className='icon'>
 
                 <div className='form'>

@@ -1,63 +1,44 @@
 import React from 'react';
+// import navbar from '../src/images/logo.jpg';
 import {NavLink} from 'react-router-dom';
-import *as ReactBootStrap from "react-bootstrap";
-import {Nav, NavDropdown} from "react-bootstrap";
-import AboutL from './AboutL';
-import {BrowserRouter,Route,Switch,Link} from 'react-router-dom';
-import Course2 from './Course2';
-
-const Navbar2=()=>{
+const Navbar=()=>{
     return (
         <>
-        <div className="container-fluid nav_bg ">
-            <div className="row"> 
-            <div className="col-lg-12 col-sm-8 ">
-            <ReactBootStrap.Navbar  className="navn" variant="pills" defaultActiveKey="/home"  >
-    
-    <ReactBootStrap.Nav bg='dark' variant="dark" className="mr-auto" defaultActiveKey="/home">
-    <ReactBootStrap.NavLink className="home" href='./' ><h5><b>HOME</b></h5></ReactBootStrap.NavLink>
-    
-    <NavDropdown title="LANGUAGE" id="basic-nav-dropdown" className="drop">
-        <NavDropdown.Item className='itms' href="/german">German Language</NavDropdown.Item>
-        <NavDropdown.Item href="/japan">Japanese Language</NavDropdown.Item>
-        <NavDropdown.Item href="/spanish">Spanish Language</NavDropdown.Item>
-        <NavDropdown.Item href="/french">French Language</NavDropdown.Item>
-        <NavDropdown.Item href="/ielts">IELTS</NavDropdown.Item>
-    </NavDropdown>
-
+        <div className="container-fluid nav-bg ">
+            <div className="row">
+                <div className="col-sm-12">   
+        <nav className="navbar navbar-expand-lg navbar-light bg ">
+  <div className="container-fluid">
+    {/* <NavLink className="navbar-brand" to="/"><img src={navbar} height='40px' width='130px' alt='logo'></img></NavLink> */}
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ml mb-2 mb-lg-0">
+        <li className="nav-item">
+          <NavLink activeClassName="menu-active" className="nav-link" aria-current="page" to="/">Home</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink activeClassName="menu-active" className="nav-link" to="/services">LANGUAGE</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink activeClassName="menu-active" className="nav-link" to="/about">JOB OPPORTUNITY</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink activeClassName="menu-active" className="nav-link" to="/contact">BLOG</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink activeClassName="menu-active" className="nav-link" to="/contact">CONTACT US</NavLink>
+        </li>
+      </ul>
       
-<ReactBootStrap.NavLink href="#pricing" className="oppo"><h5><b>JOB OPPORTUNITY</b></h5></ReactBootStrap.NavLink>
-      
-      <ReactBootStrap.NavLink href="#pricing"><h5><b>BLOG </b></h5></ReactBootStrap.NavLink>
-      <ReactBootStrap.NavLink href='./contact' ><h5><b>CONTACT</b></h5></ReactBootStrap.NavLink>
-      
-   
-    </ReactBootStrap.Nav>
-    
-  </ReactBootStrap.Navbar>
-
-
-
-  {/* navbar */}
-
-
+    </div>
+  </div>
+</nav>
 </div>
 </div>
 </div>
 </>
     );
-
-
 };
-const Routes = (
-  <BrowserRouter>
-    <div>
-      <switch>
-        <Route path='/' component={AboutL} exact={true}/>
-
-      </switch>
-    </div>
-  </BrowserRouter>
-)
-export default Navbar2;
-export {Routes};
+export default Navbar;

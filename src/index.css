@@ -787,6 +787,10 @@ padding-bottom: 2.8px;
 background-color:white;
 color: black;
 }
+
+.bg {
+  background-color: forestgreen !important;
+}
 .fbody{
   width: 100%;
   margin-left: 60px;
@@ -944,6 +948,25 @@ width: 490px;
 height: 140px;
 margin-top: -460px;
 margin-left: 260px;
+}
+.navbar{
+  padding: 0px !important;
+}
+.col-sm-12{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.nav-link{
+  color: white !important;
+  font-size: 20px ;
+  font-weight: 700;
+
+}
+.ml{
+  margin-left: 10% !important;
+}
+.nav-link:hover{
+  background-color: black;
 }
 .border1{
   margin: 10px;
@@ -1969,6 +1992,9 @@ color: #242424;
   margin-top: -480px;
     /* margin-left: -1390px; */
     background-color: forestgreen;
+}
+.bg-light {
+  background-color: #41a233 !important;
 }
   
   

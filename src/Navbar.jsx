@@ -10,32 +10,39 @@ const Navbar=()=>{
         <>
 <div className="container Component-33-1">
         <div className="row">
-        <a href="./">
-        <img src={lang} class="Component-1-1"/>
-        </a>
-     <div className='no'>
-     
-
-         <p className="no"><i class="fa fa-phone fa-2 rem"></i> &nbsp; <a href="tel:+91-88821-40688">+91 88821-40688</a> &nbsp;&nbsp; |&nbsp;&nbsp;<a href="tel:+91-88821-40688"> +91 90840-63259</a> </p>
-     </div>
-     <div className="Component-3-1">
+        <div className="col-xs-2 col-sm-3 col-lg-5">
+            <a href="./">
+            <img src={lang} class="Component-1-1"/>
+            </a>
+        
+        </div>
+        <div className="col-xs-10 col-sm-9 col-lg-7 ">
+        
+        <div className="row">
+        <p className="no"><i class="fa fa-phone fa-2 rem"></i> &nbsp; <a href="tel:+91-88821-40688">+91 88821-40688</a> &nbsp;&nbsp; |&nbsp;&nbsp;<a href="tel:+91-88821-40688"> +91 90840-63259</a> 
+         </p>
+         <div className="Component-3-1">
          <img src={facebook} className="Path-4"/>
          <a href="https://www.linkedin.com/company/languagezone-learn-any-foreign-languages-in-dehradun/?viewAsMember=true">  <img  src={linkdin} className="Path-2"/></a>
          <img src={twiter} className="Path-3"/>
-         
-         
-
-     </div>
-     <div className="Component-4-1 ">
+         </div>
+         <div className="Component-4-1 ">
      <h1 className="heading1">PAY ONLINE</h1>
      </div>
-     <div>
      <img src={ilets}
-class="IELTS-New-Logo"/> 
+class="IELTS-New-Logo"/>
+    
+        
+        </div>
+     
+     
+     
+     
      </div>
         </div>
     
 </div>
+
 
         </>
     );

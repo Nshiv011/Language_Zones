@@ -1,11 +1,11 @@
 import React from 'react';
-import heroimg from "../src/Images/hero.png";
+// import heroimg from "../src/Images/hero.png";
 const Hero=()=>{
     return (
 <>
 <div className='container-fluid heroo'>
     <div className='row'>
-        <div className="hero">
+        <div className="col-lg-12 col-sm-10 hero">
 
             {/* <img className='hero' src={heroimg} /> */}
             <div className='icon'>

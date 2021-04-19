@@ -7,26 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-
+/* @media (max-width: 800px){
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 /* zeplin */
+
+  
+
+
 .Component-33-1 { 
 
   width: 100%;
-
+  min-width: 100%;
   height: 133px;
  
 
   object-fit: contain;
 
 }
+.navbar1{
+  background-color: forestgreen;
+
+}
+
 .Component-1-1 {
 
-  width: 194px;
+  width: 100%;
 height: 90px;
 margin: 17px 7px 27px 29px;
 object-fit: contain;
@@ -37,12 +46,12 @@ object-fit: contain;
 }
 .no{
 
-  width: 360px;
+  min-width: 40%;
 
-  height: 27px;
+  height: 10px;
 
   margin-left: 97px;
-margin-top: 2.5px;
+margin-top: 6.5px;
 margin-bottom: 20px;
 margin-right: 4px;
 
@@ -62,7 +71,7 @@ margin-right: 4px;
 
   letter-spacing: normal;
 
-  text-align: left;
+  text-align: right;
 
   color: #242424;
 
@@ -73,7 +82,7 @@ margin-right: 4px;
 
   height: 39px;
 
-  margin: 0px 0 91px 100px;
+
 
   /* padding: 8px 20px 7px 19.4px; */
 
@@ -127,14 +136,14 @@ margin-right: 4px;
 }
 .Component-4-1 {
 
-  width: 140px;
+  width: 14.6%;
 
-  height: 39px;
+padding-left: 15px;
+padding-top: 5px;
 
-  margin: 0 0 91px;
-  margin-top: 0px;;
+  
 
-  padding: 6px 14px 6px 15px;
+ 
 
   object-fit: contain;
   background-color: forestgreen;
@@ -146,16 +155,17 @@ margin-right: 4px;
   transform: scale(1.1);
 }
 
+
 .heading1{
   color: gainsboro;
   font-size: 19px;
 }
 .IELTS-New-Logo {
 
-  width: 404.2px;
-  height: 123.5px;
-  margin-left: -335.4px;
-  margin-top: 28.3px;
+  width: 30%;
+  height: 100px;
+  margin-left: 47%;
+
   object-fit: contain;
 }
 .IELTS-New-Logo:hover{
@@ -168,6 +178,7 @@ margin-right: 4px;
 }
 .mr-auto{
   background-color: forestgreen;
+  color: white;
   width: 100%;
   display: flex;
   margin-left: 0px;
@@ -175,6 +186,25 @@ margin-right: 4px;
 float: left;  
 height: 42px;
 
+}
+.mr-auto a:visited{
+  color: white;
+}
+.mr-auto a:hover{
+  background-color: black;
+  color:white;
+  
+}
+.nav-link{
+  margin-left: 140px;
+  padding: 10px;
+}
+.show a:visited{
+  color: black !important;
+}
+.show a:hover{
+  background-color: forestgreen;
+  color: white;
 }
 .hero{
   width: 100%;
@@ -194,6 +224,7 @@ height: 42px;
   justify-content: space-between;
   padding: 0rem 0rem !important;
   width: 100%;
+  color: white;
 }
 
 .footer{
@@ -1637,3 +1668,8 @@ a:visited{
   color: #000;
 }
 
+@media screen and (max-width: 768px ) {
+  
+
+
+}

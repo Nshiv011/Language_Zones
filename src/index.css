@@ -164,7 +164,7 @@ padding-top: 5px;
 
   width: 30%;
   height: 100px;
-  margin-left: 47%;
+  margin-left: 57%;
 
   object-fit: contain;
 }
@@ -1668,8 +1668,300 @@ a:visited{
   color: #000;
 }
 
-@media screen and (max-width: 768px ) {
+
+@media screen and (min-width: 1200px ) {
+
+.Component-1-1{
+  width: 100%;
+height: 90px;
+margin: 7px 7px 27px 29px;
+object-fit: contain;
+}
+
+.Component-3-1 {
+  width: 100px;
+  height: 39px;
+}
+.Component-4-1 {
+  width: 20% !important;
+  padding-left: 15px;
+  padding-top: 5px;
+  height: 39px;}
+  .heading1 {
+    color: white;
+    font-size: 19px;
+}
+.IELTS-New-Logo {
+  width: 25%;
+  height: 100px;
+  margin-left: 57%;
+  object-fit: contain;
+  margin-top: -22px;
+}
+.mr-auto {
+  margin-left: -20px;
+  width: 100%;
+  
+}
+.nav-link{
+  margin-left: 70px;
+  margin-right: 60px;
+}
+.navn{
+  width: 104%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 992px ) {
+  html{
+    font-size: 55%;
+  }
+img{
+  size: 50%;
+}
+h1{
+  font-size: 55%;
+}
+.Component-1-1{
+  width: 100%;
+height: 90px;
+margin: 7px 7px 27px 29px;
+object-fit: contain;
+}
+
+.Component-3-1 {
+  width: 100px;
+  height: 39px;
+}
+.Component-4-1 {
+  width: 24.6% !important;
+  padding-left: 15px;
+  padding-top: 5px;
+  height: 39px;}
+  .heading1 {
+    color: white;
+    font-size: 19px;
+}
+.IELTS-New-Logo {
+  width: 25%;
+  height: 100px;
+  margin-left: 57%;
+  object-fit: contain;
+  margin-top: -22px;
+}
+.navn {
+  
+  padding: 0rem 0rem !important;
+  width: 158.7%;
+  color: white;
+  margin-left: -20px;
+}
+.nav-link{
+  margin-left: 50px;
   
 
+  
+}
+#basic-nav-dropdown {
+  
+  padding-top: 7.2px;
+  font-size: 2.5rem;
+  
+}
+.dropdown-menu.show {
+  display: block;
+  left: 50px;
+}
+.nav-link h5{
+  font-size: 2.5rem;
+  padding-top: 0rem !important;
+}
+
+.no {
+  min-width: 40%;
+  height: 10px;
+  margin-left: 50px;
+  margin-top: 15.5px;
+  margin-bottom: 20px;
+  margin-right: 4px;
+  object-fit: contain;
+  font-family: SegoeUI;
+  font-size: 2.1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #242424;
+}
+
+
+
+.Component-4-1 {
+  width: 14.6%;
+  padding-left: 15px;
+  padding-top: 5px;
+  object-fit: contain;
+  background-color: forestgreen;
+}
+
+.her0{
+width: 100% !important;
+}
+.icon {
+  position: absolute;
+bottom: 340px;
+right: 0px;
+background-color: white;
+color: white;
+width: 47.5px;
+height: 140px;
+}
+.fa-2x {
+  font-size: 3.4rem;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px ) {
+  html{
+    font-size: 55%;
+  }
+  img{
+    size: 40%;
+  }
+  .Component-1-1{
+    width: 100%;
+  height: 90px;
+  margin: 7px 7px 27px 29px;
+  object-fit: contain;
+  }
+  
+  .Component-3-1 {
+    width: 100px;
+    height: 39px;
+  }
+  .Component-4-1 {
+    width: 24.6% !important;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 39px;}
+    .heading1 {
+      color: white;
+      font-size: 19px;
+  }
+  .IELTS-New-Logo {
+    width: 25%;
+    height: 100px;
+    margin-left: 57%;
+    object-fit: contain;
+    margin-top: -22px;
+  }
+  .navn {
+    
+    padding: 0rem 0rem !important;
+    width: 158.7%;
+    color: white;
+    margin-left: -20px;
+  }
+  .nav-link{
+    margin-left: 50px;
+    padding: 0.8rem !important;
+    
+  
+    
+  }
+
+.home{
+    margin-left: 35rem;
+    margin-right: 10rem;
+  }
+  .oppo{
+    margin-left: 10rem;
+  }
+  .dropdown-menu{
+    font-size: 2rem !important;
+  }
+  #basic-nav-dropdown {
+    
+    padding-top: 5.2px;
+    font-size: 2.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    
+  }
+  .dropdown-menu.show {
+    display: block;
+    left: 10px;
+  }
+  .nav-link h5{
+    font-size: 2.5rem;
+    padding-top: 0.3rem !important;
+  }
+  
+  .no {
+    min-width: 40%;
+height: 10px;
+margin-left: 50px;
+margin-top: 6.4px;
+margin-bottom: 31.4px;
+margin-right: 4px;
+object-fit: contain;
+font-family: SegoeUI;
+font-size: 2.3rem;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.35;
+letter-spacing: normal;
+text-align: left;
+color: #242424;
+  }
+  
+  
+  
+  .Component-4-1 {
+    width: 14.6%;
+    padding-left: 15px;
+    padding-top: 5px;
+    object-fit: contain;
+    background-color: forestgreen;
+  }
+  
+  .her0{
+  width: 100% !important;
+  }
+  .icon {
+    position: absolute;
+  bottom: 340px;
+  right: 0px;
+  background-color: white;
+  color: white;
+  width: 47.5px;
+  height: 140px;
+  }
+  .fa-2x {
+    font-size: 3.4rem;
+  }
+  
 
 }

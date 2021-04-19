@@ -11,11 +11,11 @@ const Navbar2=()=>{
         <>
         <div className="container-fluid nav_bg ">
             <div className="row"> 
-            <div className="col-lg-12 col-sm-8 col">
+            <div className="col-lg-12 col-sm-8 ">
             <ReactBootStrap.Navbar  className="navn" variant="pills" defaultActiveKey="/home"  >
     
     <ReactBootStrap.Nav bg='dark' variant="dark" className="mr-auto" defaultActiveKey="/home">
-    <ReactBootStrap.NavLink href='./' ><h5><b>HOME</b></h5></ReactBootStrap.NavLink>
+    <ReactBootStrap.NavLink className="home" href='./' ><h5><b>HOME</b></h5></ReactBootStrap.NavLink>
     
     <NavDropdown title="LANGUAGE" id="basic-nav-dropdown" className="drop">
         <NavDropdown.Item className='itms' href="/german">German Language</NavDropdown.Item>
@@ -26,7 +26,7 @@ const Navbar2=()=>{
     </NavDropdown>
 
       
-<ReactBootStrap.NavLink href="#pricing"><h5><b>JOB OPPORTUNITY</b></h5></ReactBootStrap.NavLink>
+<ReactBootStrap.NavLink href="#pricing" className="oppo"><h5><b>JOB OPPORTUNITY</b></h5></ReactBootStrap.NavLink>
       
       <ReactBootStrap.NavLink href="#pricing"><h5><b>BLOG </b></h5></ReactBootStrap.NavLink>
       <ReactBootStrap.NavLink href='./contact' ><h5><b>CONTACT</b></h5></ReactBootStrap.NavLink>

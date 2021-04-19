@@ -16,12 +16,12 @@ const Course2=(props)=>{
 <br/>
         <div className="container-fluid mb-5">
             <div className="row">
-                <div className="col-10 mx-auto">
+                <div className="col-sm-10 mx-auto">
                     <div className="row gy-4">
                     
 
 
-                    <div className="col-md-4 card1">
+                    <div className="col-sm-4 card1">
                             <div class="card">
                                 <img src={card1} height='150px' width='200px' className="card-img-top" alt=""/>
                                 <div className="card-body">
@@ -35,7 +35,7 @@ const Course2=(props)=>{
                         </div>
 
 
-                        <div className="col-md-4 card1">
+                        <div className="col-sm-4 card1">
                             <div class="card">
                                 <img src={card2} height='150px' width='200px' className="card-img-top" alt=""/>
                                 <div className="card-body">
@@ -48,7 +48,7 @@ const Course2=(props)=>{
                             </div>
                         </div>
 
-                        <div className="col-md-4 card1">
+                        <div className="col-sm-4 card1">
                             <div class="card">
                                 <img src={card3} height='150px' width='200px' className="card-img-top" alt=""/>
                                 <div className="card-body">
@@ -61,7 +61,7 @@ const Course2=(props)=>{
                             </div>
                         </div>
 
-                        <div className="col-md-4 card1">
+                        <div className="col-sm-4 card1">
                             <div class="card">
                                 <img src={card4} height='150px' width='200px' className="card-img-top" alt=""/>
                                 <div className="card-body">
@@ -74,7 +74,7 @@ const Course2=(props)=>{
                             </div>
                         </div>
 
-                        <div className="col-md-4 card1">
+                        <div className="col-sm-4 card1">
                             <div class="card">
                                 <img src={card5} height='150px' width='200px' className="card-img-top" alt=""/>
                                 <div className="card-body">

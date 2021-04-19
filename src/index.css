@@ -525,7 +525,7 @@ letter-spacing: 0.1px;
   align-items: center;
   justify-content: center;
   padding: 30px;
-  margin-left: -1370px;
+  /* margin-left: -1370px; */
   background-color:forestgreen;
 }
 .lower12{
@@ -1830,6 +1830,17 @@ height: 140px;
 .fa-2x {
   font-size: 3.4rem;
 }
+.lower {
+  width: 80%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+
+  /* margin-left: -1390px; */
+  background-color: forestgreen;
+}
 
 
 
@@ -1879,9 +1890,12 @@ height: 140px;
   .navn {
     
     padding: 0rem 0rem !important;
-    width: 158.7%;
+    width: 103.7%;
     color: white;
     margin-left: -20px;
+  }
+  .text-block h4{
+    font-size: 2.6rem;
   }
   .nav-link{
     margin-left: 50px;
@@ -1890,9 +1904,16 @@ height: 140px;
   
     
   }
+  .card-body p{
+    font-size: 2rem;
+  }
+  .btn-botton{
+    font-size: 2rem !important;
+  }
+  
 
 .home{
-    margin-left: 35rem;
+    margin-left: 30rem;
     margin-right: 10rem;
   }
   .oppo{
@@ -1937,6 +1958,18 @@ text-align: left;
 color: #242424;
   }
   
+  .lower {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  margin-left: 130px;
+  margin-top: -480px;
+    /* margin-left: -1390px; */
+    background-color: forestgreen;
+}
   
   
   .Component-4-1 {

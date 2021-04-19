@@ -6,10 +6,10 @@ const About=(props)=>{
 <>
 <div className="container-fluid ">
             <div className="row">
-                <div className="upper">
+                <div className="col-sm-12 upper">
 
                 </div>
-                <div className="lower">
+                <div className=" col-sm-10 lower">
                     <div className='content'>
                         <h1 className='abt'> ABOUT US</h1>
                         <p  className='abt1' >Language Zone Dehradun is a best foreign Language training

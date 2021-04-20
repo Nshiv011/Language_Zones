@@ -17,7 +17,7 @@ const Course2=(props)=>{
         <div className="container-fluid mb-5">
             <div className="row">
                 <div className="col-sm-10 mx-auto">
-                    <div className="row gy-4">
+                    <div className="row gy-4 cards">
                     
 
 

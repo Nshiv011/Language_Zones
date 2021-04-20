@@ -27,12 +27,17 @@ const Hero=()=>{
                 </div>
 
             </div>
-            <div className="text-block">
-                <h4>Our Newly Introduced Course</h4>
-            </div>
+            
         </div>
     </div>
+    <div className="text">
+    <div className="text-block">
+                <h4>Our Newly Introduced Course</h4>
+            </div>
+            </div>
 </div>
+
+
 
 </>
     );

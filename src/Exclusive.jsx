@@ -55,7 +55,7 @@ An incredible mentor support is provided where 1 teaching assistant is assigned 
 
                         <div className="col-md-4 ">
                             <div class="ecard3">
-                                <img src={card3} className="icard1"/>
+                                <img src={card3} className="icard3"/>
                                 <div className="card-body">
                                         
                                         <h4 className='duration3'>Get Secured with Certificate</h4>

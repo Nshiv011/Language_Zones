@@ -10,13 +10,13 @@ const Navbar=()=>{
         <>
 <div className="container Component-33-1">
         <div className="row">
-        <div className="col-xs-2 col-sm-3 col-lg-5">
+        <div className="col-xs-2 col-sm-2 col-lg-4 col-md-2 mx-auto">
             <a href="./">
             <img src={lang} class="Component-1-1"/>
             </a>
         
         </div>
-        <div className="col-xs-10 col-sm-9 col-lg-7 ">
+        <div className="col-xs-10 col-sm-10 col-lg-8 col-md-10 mx-auto ">
         
         <div className="row">
         <p className="no"><i class="fa fa-phone fa-2 rem"></i> &nbsp; <a href="tel:+91-88821-40688">+91 88821-40688</a> &nbsp;&nbsp; |&nbsp;&nbsp;<a href="tel:+91-88821-40688"> +91 90840-63259</a> 
@@ -27,7 +27,9 @@ const Navbar=()=>{
          <img src={twiter} className="Path-3"/>
          </div>
          <div className="Component-4-1 ">
-     <h1 className="heading1">PAY ONLINE</h1>
+         <div className="pay"><h1 className="heading1">PAY ONLINE</h1>
+         </div>
+     
      </div>
      <img src={ilets}
 class="IELTS-New-Logo"/>
@@ -48,3 +50,5 @@ class="IELTS-New-Logo"/>
     );
 };
 export default Navbar;
+
+

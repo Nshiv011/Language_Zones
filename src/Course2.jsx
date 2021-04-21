@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 const Course2=(props)=>{
     return(
 <>
-<br/>
+
         <div className="container-fluid mb-5">
             <div className="row">
                 <div className="col-sm-10 mx-auto">

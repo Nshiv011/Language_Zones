@@ -8,17 +8,19 @@ import ilets from '../src/Images/ilets.png';
 const Navbar=()=>{
     return (
         <>
-<div className="container Component-33-1">
+<div className="container-fluid Component-33-1">
         <div className="row">
-        <div className="col-xs-2 col-sm-2 col-lg-4 col-md-2 mx-auto">
+        <div className="col-lg-1 mx-auto"></div>
+        <div className=" col-lg-3 mx-auto">
             <a href="./">
             <img src={lang} class="Component-1-1"/>
             </a>
         
         </div>
-        <div className="col-xs-10 col-sm-10 col-lg-8 col-md-10 mx-auto ">
         
-        <div className="row">
+        <div className="col-lg-7 mx-auto ">
+        
+        <div className="row right">
         <p className="no"><i class="fa fa-phone fa-2 rem"></i> &nbsp; <a href="tel:+91-88821-40688">+91 88821-40688</a> &nbsp;&nbsp; |&nbsp;&nbsp;<a href="tel:+91-88821-40688"> +91 90840-63259</a> 
          </p>
          <div className="Component-3-1">
@@ -36,14 +38,18 @@ class="IELTS-New-Logo"/>
     
         
         </div>
+       
      
      
      
      
      </div>
+     <div className="col-lg-1 mx-auto"></div>
         </div>
+        
     
 </div>
+
 
 
         </>

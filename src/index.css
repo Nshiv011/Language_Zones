@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
+.row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.container, .container-fluid{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 * {
   box-sizing: border-box;
 }
@@ -40,7 +48,7 @@ code {
 
   width: 100%;
 height: 90px;
-margin: 17px 7px 27px 29px;
+margin: 17px 7px 27px 0px;
 object-fit: contain;
 
 }
@@ -81,7 +89,7 @@ margin-right: 4px;
 }
 .Component-3-1 {
 
-  width: 100px;
+  width: 120px;
 
   height: 39px;
 
@@ -91,6 +99,9 @@ margin-right: 4px;
 
   object-fit: contain;
   background-color: black;
+  padding-right: 17.4px;
+  
+
 
 }
 .Path-4 {
@@ -144,13 +155,16 @@ margin-right: 4px;
 padding-left: 15px;
 padding-top: 5px;
 
-  
+  height: 39.4;
 
  
 
   object-fit: contain;
   background-color: forestgreen;
 
+}
+.right{
+  justify-content: right;
 }
 .Component-4-1:hover{
   background-color: #339;
@@ -246,11 +260,10 @@ height: 42px;
   margin-left: 50%;
   margin-top: 20%;
 }
-
 .text-block {
   position: absolute;
-  bottom: -26.5px;
-  right: 527.2px;
+  
+ top: 630px;
   background-color: forestgreen;
   color: white;
   padding-left: 50px;
@@ -263,13 +276,15 @@ height: 42px;
   transform: scale(1.1);
 }
 .icon{
-  position: absolute;
-bottom: 250px;
+  position: fixed;
+/* bottom: 250px; */
 right: 0px;
 background-color: white;
 color: white;
 width: 57.5px;
-height: 170px;
+/* height: 170px; */
+justify-content:center;
+top:260px;
 }
 .whatsapp{
   background-color: #333399;
@@ -278,7 +293,7 @@ height: 33.3%;
 padding: 16.1px;
     padding-top: 20px;
 padding-top: 12.5px;
-margin: 2px;
+margin-bottom: 2px;
 }
 .whatsapp:hover{
   transform: scale(1.1);
@@ -293,7 +308,7 @@ margin: 2px;
   padding: 16.1px;
       padding-top: 20px;
   padding-top: 12.5px;
-  margin: 2px;
+  margin-bottom: 2px;
 }
 .form:hover{
   transform: scale(1.1);
@@ -305,7 +320,7 @@ margin: 2px;
   padding: 16.1px;
       padding-top: 20px;
   padding-top: 12.5px;
-  margin: 2px;
+  margin: 0px;
 }
 .message:hover{
   transform: scale(1.1);
@@ -316,7 +331,7 @@ margin: 2px;
   height: 0px;
 }
 .girl{
-  width:99.1%;
+  width:100%;
   height: 510px;
   background: #242424;
 }
@@ -461,7 +476,9 @@ margin-left: 0px;
 margin-bottom: 20.5px;
 }
 .text{
-  width: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .duration{
   width: 156px;
@@ -989,7 +1006,7 @@ text-align: center;
 }
 .mx-auto{
   justify-content: right;
-  text-align: right;
+  text-align: center;
 }
 .border1{
   margin: 10px;
@@ -1684,13 +1701,18 @@ margin-right: -20px;
   width: 100%;
 
 }
+
 .whatsapp a:visited{
+  color: white;
+}
+.whatsapp a:hover{
   color: lime;
 }
 .message a:link{
-  color: red;
+  color: white;
  
 }
+
 .locate a:visited{
   color: white;
 }
@@ -1712,4 +1734,36 @@ a:visited{
 }
 .no a:link{
   color: #000;
+}
+
+@media screen and (max-width: 850px){
+.no{
+  font-size: 17.6px;
+}
+}
+
+
+@media screen and (max-width: 1225px){
+  .no{
+    margin-left: 35px ;
+  }
+
+}
+
+
+@media screen and (max-width: 1119px){
+  .no{
+    margin-left: 15px ;
+    font-size: 16.9px;
+  }
+
+}
+
+@media screen and (max-width: 1163px){
+  .hero{
+    height: 410px;
+  }
+  .text-block{
+    top: 560px;
+  }
 }

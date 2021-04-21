@@ -407,6 +407,7 @@ align-items: center;
 text-align: center;
 padding-top: 60px;
 max-width: 19.633%  !important;
+display: flex;
 }
 
 .card2{
@@ -453,7 +454,7 @@ text-align: center;
 margin-left: 0px;
 font-weight: 690;
 margin-bottom: 0px;
-font-size: 19px ;
+font-size: 16.7px ;
 }
 .Component45{
   width: 100%;
@@ -481,7 +482,7 @@ margin-bottom: 20.5px;
   justify-content: center;
 }
 .duration{
-  width: 156px;
+  width: auto;
 height: 19px;
 margin: 23px 3px 15px 11px;
 font-family: SegoeUI;
@@ -1747,6 +1748,7 @@ a:visited{
   .no{
     margin-left: 35px ;
   }
+    
 
 }
 
@@ -1766,4 +1768,14 @@ a:visited{
   .text-block{
     top: 560px;
   }
+}
+
+@media screen and (max-width: 1450px){
+  
+  
+  .card-body {
+    
+    padding: 0.25rem !important;
+}
+  
 }

@@ -168,7 +168,7 @@ padding-top: 5px;
 
   width: 30%;
   height: 100px;
-  margin-left: 50%;
+  margin-left: 47%;
 
   object-fit: contain;
 }
@@ -215,8 +215,11 @@ height: 42px;
 .heroo{
   background-image: url("../src/Images/hero.png");
   background-repeat: no-repeat;
-  /* background-size: 100%; */
+  background-size: 100%;
   position: relative;
+}
+.job{
+  margin-left: 20px;
 }
 .navn {
   position: relative;

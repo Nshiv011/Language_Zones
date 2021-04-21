@@ -1,6 +1,8 @@
 import React from 'react';
 // import navbar from '../src/images/logo.jpg';
 import {NavLink} from 'react-router-dom';
+import { NavDropdown } from 'react-bootstrap';
+
 const Navbar=()=>{
     return (
         <>
@@ -16,13 +18,19 @@ const Navbar=()=>{
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink activeClassName="menu-active" className="nav-link" aria-current="page" to="/">Home</NavLink>
+          <NavLink activeClassName="menu-active" className="nav-link" aria-current="page" to="/">HOME</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="menu-active" className="nav-link" to="/services">LANGUAGE</NavLink>
+        <NavDropdown title="LANGUAGE" id="basic-nav-dropdown">
+        <NavDropdown.Item href="/german">German Language</NavDropdown.Item>
+        <NavDropdown.Item href="/japan">Japanese Language</NavDropdown.Item>
+        <NavDropdown.Item href="/spanish">Spanish Language</NavDropdown.Item>
+        <NavDropdown.Item href="/french">French Language</NavDropdown.Item>
+        <NavDropdown.Item href="/ielts">IELTS</NavDropdown.Item>
+      </NavDropdown>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="menu-active" className="nav-link" to="/about">JOB OPPORTUNITY</NavLink>
+          <NavLink activeClassName="menu-active" className="nav-link job" to="/about">JOB OPPORTUNITY</NavLink>
         </li>
         <li className="nav-item">
           <NavLink activeClassName="menu-active" className="nav-link" to="/contact">BLOG</NavLink>

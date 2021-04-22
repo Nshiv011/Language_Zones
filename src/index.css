@@ -396,6 +396,7 @@ height: 581px;
 .card:hover{
   transform: scale(1.2);
   background-color: rgb(219, 219, 221);
+ 
 }
 
 
@@ -496,6 +497,7 @@ text-align: center;
 color: #ff0000;
 }
 .btn-botton{
+  
   color: #fff !important;
 background-color: #272827 !important;
 border-color: #545454 !important;
@@ -512,7 +514,8 @@ border: 1px solid transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
-padding: 0.075rem 2.65rem !important;
+/* padding: 0.075rem 2.65rem !important; */
+width: 100%;
 font-size: 0.9rem !important;
 line-height: 1.7 !important;
 border-radius: .0rem !important;
@@ -1776,6 +1779,37 @@ a:visited{
   .card-body {
     
     padding: 0.25rem !important;
-}
+
+     }
+     .card-body:hover .btn-botton{
+       display: inline-block !important;
+     }
   
+}
+
+
+@media screen and (max-width: 1237px){
+  .card-img-top{
+    height: 100px;
+  }
+  .duration{
+    font-size: 12px;
+  }
+  
+  
+}
+@media screen and (min-width: 1237px){
+  .Component40{
+    font-size: 17px !important;
+  }
+  
+}
+
+@media screen and (min-width: 992px){
+.Component40{
+  font-size: 12.8px;
+}
+.component40 p{
+  font-size: 12.8px;
+}
 }

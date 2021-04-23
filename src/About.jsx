@@ -5,7 +5,7 @@ const About=(props)=>{
     return(
 <>
 <div className="container-fluid ">
-            <div className="row">
+            <div className="row abtt">
                 <div className="col-sm-12 upper">
 
                 </div>

@@ -58,7 +58,7 @@ An incredible mentor support is provided where 1 teaching assistant is assigned 
                                 <img src={card3} className="icard3"/>
                                 <div className="card-body">
                                         
-                                        <h4 className='duration3'>Get Secured with Certificate</h4>
+                                        <h4 className='duration3'>Secured Certificate</h4>
                                     <p className='pduration1'>Get Secured with Certificate
 
 The student will be provided the certificates which are signed by instructors and have our logo on it which will help them secure their career and increase job prospects with certificates signed by us.</p>

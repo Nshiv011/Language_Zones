@@ -18,7 +18,7 @@ const Footer=()=>{
     <h1 className='note'> Leave us quick note</h1>
     <div class="container">
     <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-5">
 
     <form className='form1'  >
         <input type="text" 
@@ -44,7 +44,7 @@ const Footer=()=>{
 
     
     </div>
-    <div class='col-sm-6 '>
+    <div class='col-sm-7 '>
         <p className='fbody'>Language Zone Dehradun is a best foreign Language training provider in Dehradun 
 Uttarakhand. We provide Japanese, French, Spanish,
  German & IELTS Language course training Language Zone Dehradun is a best foreign Language training provider in Dehradun 
@@ -61,7 +61,7 @@ Uttarakhand. We provide Japanese, French, Spanish,
 Patel Nagar, Dehradun,<br/>
 Uttarakhand 248001</a>
 </p>
-<p className= 'phone'><i class="fa fa-phone fa-2 rem "></i>&nbsp;<a href="tel:+91 88821-40688"> +91 88821-40688</a>  | <a href="tel:+91 88821-40688">  +91 90840-63259</a></p>
+<p className= 'phone'><i class="fa fa-phone fa-2 rem "></i>&nbsp;<a href="tel:+91 88821-40688"> +91-88821-40688</a>  | <a href="tel:+91 88821-40688">  +91-90840-63259</a></p>
 <p className='email'><i class="fa fa-phone fa-2 rem"></i>&nbsp;&nbsp;&nbsp;<a href="mailt0:info@brillicaservices.com">info@brillicaservices.com </a></p>
 
         <a href=""><img src={facebook} className="facebook"/></a>

@@ -645,11 +645,16 @@ margin-top: 120px;
   text-align: center;
   margin-left: 4.8%;
 }
+.exclusive{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .exclusive1 {
   width: 100%;
-  margin: 49px 965px -35px 11px;;
+  /* margin: 49px 965px -35px 11px;; */
   object-fit: contain;
-  font-size: 44.7px;
+  font-size: 64.7px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -657,6 +662,7 @@ margin-top: 120px;
   letter-spacing: normal;
   text-align: center;
   color: #242424;
+  margin-top: 50px;
 
 }
 .ecard1{
@@ -669,7 +675,7 @@ margin-top: 120px;
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.13);
   border-radius: .25rem;
-  height: 340px;
+  /* height: 340px; */
   align-items: center;
 }
 .ecard2{
@@ -682,11 +688,11 @@ margin-top: 120px;
   background-clip: border-box;
   /* border: 0px solid rgba(0, 0, 0, 0.13); */
   /* border-radius: .25rem; */
-  height: 390px;
+  /* height: 390px; */
   align-items: center;
   border-left: 2px solid;
 border-right: 2px solid;
-padding-bottom: 40px;
+/* padding-bottom: 40px; */
 }
 .ecard3{
   position: relative;
@@ -698,7 +704,7 @@ padding-bottom: 40px;
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.13);
   border-radius: .25rem;
-  height: 330px;
+  /* height: 330px; */
   align-items: center;
 }
 .ecard{
@@ -713,8 +719,8 @@ padding-bottom: 40px;
 }
 .duration2{
   width: 100%;
-  height: 19px;
-  margin: 23px 3px 45px 1.7px;
+  /* height: 19px;
+  margin: 23px 3px 45px 1.7px; */
   font-size: 30.6px;
   font-weight: bold;
   font-stretch: normal;
@@ -734,8 +740,8 @@ margin-top: 21px;
 .duration3{
 
   width: 100%;
-  height: 19px;
-  margin: 23px 3px 45px 1.7px;
+  /* height: 19px;
+  margin: 23px 3px 45px 1.7px; */
   font-size: 30.6px;
   font-weight: bold;
   font-stretch: normal;
@@ -752,7 +758,7 @@ margin-top: 21px;
 }
 .pduration1{
   text-align: center;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   font-size: 16.8px;
 }
 .leave{
@@ -789,6 +795,7 @@ border-radius: 20px;
 padding-left: 12px;
 background-color: rgb(161, 161, 161);
 color: #fff;
+width: 100%;
 /* text-decoration: white; */
 font-weight: 600;
 border-color: rgb(161, 161, 161);
@@ -825,8 +832,9 @@ color: black;
 }
 .fbody{
   width: 100%;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 margin-top: 6.1px;
+padding-right: 10px;
 }
 .location{
   width: 90%;
@@ -1803,6 +1811,9 @@ a:visited{
   }
   .abt1{
     font-size: 17px;
+  }
+  .exclusive1{
+    font-size: 50px;
   }
   
   

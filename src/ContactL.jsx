@@ -7,7 +7,7 @@ const ContactL=()=>{
     return(
         <>
        <div className='container-fluid'>
-           <div className='row'>
+           <div className='row '>
                 <div className='heroimg'>
                     <img src={heroimg} className='heroimage'/>
                     <Icon/>
@@ -17,7 +17,7 @@ const ContactL=()=>{
            </div>
        </div>
        <div className="container-fluid ">
-            <div className="row">
+            <div className="row con">
             <div className="contact-upper">
 
             </div>

@@ -605,7 +605,7 @@ color: #ffffff;
 /* margin-bottom: 40px; */
 }
 .abt1{
-  height: 620px;
+  /* height: 620px; */
 margin: 37px 0px 0px;
     margin-top: 37px;
 object-fit: contain;
@@ -1035,6 +1035,7 @@ text-align: center;
   }
   .abtt{
     justify-content: center;
+    height: 660px;
   }
   .border2{
     margin: 10px;
@@ -1748,16 +1749,16 @@ a:visited{
 }
 
 
-@media screen and (max-width: 1225px){
+@media screen and (max-width: 1280px){
   .no{
-    margin-left: 35px ;
+    margin-left: 25px ;
   }
     
 
 }
 
 
-@media screen and (max-width: 1119px){
+@media screen and (max-width: 1180px){
   .no{
     margin-left: 15px ;
     font-size: 16.9px;
@@ -1800,6 +1801,9 @@ a:visited{
     height: 280px;
     top: 20px;
   }
+  .abt1{
+    font-size: 17px;
+  }
   
   
   
@@ -1807,7 +1811,9 @@ a:visited{
 @media screen and (min-width: 1237px){
   .Component40{
     font-size: 17px !important;
+
   }
+ 
   
   
 }

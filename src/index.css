@@ -637,13 +637,37 @@ color: #ffffff;
 padding: 50px;
 margin-top: 120px;
 }
+.count{
+  justify-content: center !important;
+}
 
-
+.carousel-control-prev-icon{
+  width: 50px !important ;
+  height: 50px !important;
+}
+.carousel-control-next-icon{
+  width: 50px !important ;
+  height: 50px !important;
+}
 .country{
-  width: 85%;
-  margin-top: 20px;
+  /* border: 1px solid #383534; */
+  border-left: 80px solid #383534;
+  border-right: 80px solid #383534;
+  border-bottom: 40px solid #383534;
+  border-top: 40px solid #383534;
+  width: 83% !important;
+  margin-top: 60px;
   text-align: center;
-  margin-left: 4.8%;
+  /* margin-left: 4.8%; */
+}
+.carousel-indicators{
+  bottom: -50px !important;
+}
+.carousel-control-prev{
+  left: -125px !important;
+}
+.carousel-control-next{
+  right: -125px !important;
 }
 .exclusive{
   display: flex;

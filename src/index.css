@@ -943,7 +943,7 @@ margin-top: 5px;
   margin-left: -40px;
 }
 .lala ul li{
-  margin: 5px;
+  margin-right: 5px;
   font-size: 13px;
 }
 .lala ul li a:visited{
@@ -1829,6 +1829,9 @@ a:visited{
   .text-block{
     top: 560px;
   }
+  .lala ul li{
+    font-size: 8.4px;
+  }
 }
 
 @media screen and (max-width: 1450px){
@@ -1873,6 +1876,7 @@ a:visited{
     
     width: 90%;
   }
+  
   
   
  

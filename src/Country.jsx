@@ -16,35 +16,38 @@ const Country=()=>{
 
         <Carousel>
   <Carousel.Item interval={1000}>
-    <img
+    <a href="/japan"><img
       className="d-block w-100"
       src={j1}
       alt="First slide"
+      
     />
+    </a>
     
   </Carousel.Item>
   <Carousel.Item interval={500}>
-    <img
+  <a href="/ielts"><img
       className="d-block w-100"
       src={j2}
       alt="Second slide"
-    />
+    /></a>
     
   </Carousel.Item>
   <Carousel.Item>
+  <a href="/spanish">
     <img
       className="d-block w-100"
       src={j3}
       alt="Third slide"
-    />
+    /></a>
     
   </Carousel.Item>
   <Carousel.Item>
-    <img
+  <a href="/German"><img
       className="d-block w-100"
       src={j4}
       alt="Third slide"
-    />
+    /></a>
     
   </Carousel.Item>
 </Carousel>

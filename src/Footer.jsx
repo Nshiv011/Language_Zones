@@ -55,7 +55,7 @@ Uttarakhand. We provide Japanese, French, Spanish,
 </div>
 </div>
 
-<div className='col-sm-3 body'>
+<div className='col-sm-3 bady'>
     <h1 className='location'>Location</h1>
     <p className="locate"><a href="https://g.page/BrillicaServices?share">2nd floor, above suvidha Supermarket<br/>
 Patel Nagar, Dehradun,<br/>
@@ -69,9 +69,17 @@ Uttarakhand 248001</a>
         <a href=""> <img src={twiter} className="twiter"/></a>
 </div>
 
-<div className='col-sm-2'>
+
+<div className='col-sm-2 lala'>
 <img src={Kiki} className='language_footer'/>
 <p className='kiki'>LANGUAGE ZONE A UNIT OF BRILLICA SERVICES PVT.LTD.</p>
+<ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./">Language</a></li>
+            <li>Opportunity</li>
+            <li>Jobs</li>
+            <li><a href="./contact">Contact</a></li>
+        </ul>
 </div>
 
 <div className='container-fluid'>
@@ -81,7 +89,15 @@ Uttarakhand 248001</a>
         </div>
         <div className='col-sm-6'>
             <p className='last_language'>Language Zone 2021</p>
+        <ul>
+            <li>Home</li>
+            <li>language</li>
+            <li>Opportunity</li>
+            <li>jobs</li>
+            <li>contact</li>
+        </ul>
         </div>
+        
     </div>
 </div>
 

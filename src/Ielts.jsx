@@ -36,6 +36,7 @@ const Ielts=(props)=>{
             
                 </div>
                 <div className='learn110'>
+                <img src={ieltsflag} className='iflag'/>
                     <h1 className='learn-heading2'><b>IELTS</b> </h1>
                    
                     <p className='learn-ielts-body'>
@@ -45,7 +46,7 @@ const Ielts=(props)=>{
 
 </p> 
 <p className='learn-duration'>Duration  : 1-2 Months</p>
-<img src={ieltsflag} className='iflag'/>
+
                 </div>
             </div>
         </div>

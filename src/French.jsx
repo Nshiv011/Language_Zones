@@ -33,6 +33,7 @@ const French=()=>{
             
                 </div>
                 <div className='learn22'>
+                <img src={flag} className='flag'/>
                     <h1 className='learn-heading'>Learn French</h1>
                     <p className='learn-french'>Learn French with Language Zone Dehradun Uttarakhand</p>
                     <p className='learn-french-body'>
@@ -40,7 +41,7 @@ const French=()=>{
 French is spoken as a first language in France, Haiti, Monaco and in parts of Switzerland, Belgium, Canada, and the US (notably in parts of Louisiana and New England region), and by various communities elsewhere.
 </p> 
 <p className='learn-duration'>Duration  : 3-9 Months</p>
-<img src={flag} className='flag'/>
+
                 </div>
             </div>
         </div>

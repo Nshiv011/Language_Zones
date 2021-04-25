@@ -9,6 +9,8 @@ import Japan from './Japan';
 import Spanish from './Spanish'
 import German from "./German"
 import Ielts from './Ielts'
+import Terms from './Terms';
+import Privacy from './Privacy';
 const App=()=>{
     return(
         <>
@@ -21,6 +23,8 @@ const App=()=>{
         <Route exact path='/spanish' component={Spanish}/>
         <Route exact path='/german' component={German}/>
         <Route exact path='/ielts' component={Ielts}/>
+        <Route exact path='/privacy' component={Privacy}/>
+        <Route exact path='/terms' component={Terms}/>
         </Switch>
        
         </>

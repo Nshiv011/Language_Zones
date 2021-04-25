@@ -85,7 +85,7 @@ Uttarakhand 248001</a>
 <div className='container-fluid'>
     <div className='row'>
         <div className='col-sm-6'>
-            <p className='privacy'>Privacy Policy  |  Terms and Conditions</p>
+            <p className='privacy'><a href="/privacy">Privacy Policy</a>  |<a href="/terms"> Terms and Conditions</a> </p>
         </div>
         <div className='col-sm-6'>
             <p className='last_language'>Language Zone 2021</p>

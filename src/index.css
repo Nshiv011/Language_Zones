@@ -381,7 +381,32 @@ height: 581px;
   margin: 71.7px -50px 0px -373px;
   object-fit: contain;
 }
-
+.privac{
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #edeef7;
+  margin: 40px;
+  padding: 40px;
+  text-align: justify;
+}
+.privac h1{
+  text-align: center !important;
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 100px;
+  color: #2c246d;
+}
+.privac p{
+  font-size: 20px;
+}
+.privac h4{
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.privac h5{
+  margin-bottom: -40px;
+}
 .card {
   position: relative;
   display: flex;

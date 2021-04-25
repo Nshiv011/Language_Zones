@@ -15,7 +15,7 @@ const German=()=>{
         <Navbar/>
         <Navbar2/>
         <div className='container-fluid'>
-            <div className='row'>
+            <div className='row ger'>
                 <div className='french'>
                     <img src={germanimg} className='frenchclass' />
                     <div className='icon2'>
@@ -36,6 +36,7 @@ const German=()=>{
             
                 </div>
                 <div className='learn3'>
+                <img src={germanflag} className='gflag'/>
                     <h1 className='learn-heading'>Learn German</h1>
                     <p className='learn-german'>Language Zone Dehradun is the best German Language Training Institute in 
 Dehradun,Uttarakhand.</p>
@@ -51,7 +52,7 @@ and Austria. It’s also spoken in many parts of Northern Italy, as well as in t
 French provinces of Alsace and Lorraine.
 </p> 
 
-<img src={germanflag} className='gflag'/>
+
                 </div>
             </div>
         </div>

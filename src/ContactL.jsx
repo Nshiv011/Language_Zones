@@ -28,7 +28,7 @@ const ContactL=()=>{
                         <p  className='contact-abt11' ><a href="tel:+91-8882140688">+91-8882140688 </a>  |<a href="tel:+91-8882140688">  +91-6398330089 </a>  | <a href="tel:+91-8882140688"> +91-9084063259</a></p>
                         
                         <div className='container'>
-                        <div className='row'>
+                        <div className='row bl'>
                             <div className='block'>
                                     <div class='border1'>
                                         <p className='info'>Mail Us</p>

@@ -30,36 +30,7 @@ const Box3=()=>{
                 </div>
 
 
-<div className="container-fluid">
-<div className='row titles1'>
-   
-                <div className='bbeg'>
-                    <h1 className='b1'> Beginners</h1>
-                </div>
-                
 
-                <div className='bbeg1'>
-                    <h1 className='b1'> Intermediate</h1>
-                </div>
-
-                <div className='bbeg2'>
-                    <h1 className='b1'> Advanced</h1>
-                </div>
-
-                <div className='bbeg3'>
-                    <h1 className='b1'> Independency</h1>
-                </div>
-
-                <div className='bbeg4'>
-                    <h1 className='b1'> Superior</h1>
-                </div>
-
-                <div className='bbeg5'>
-                    <h1 className='b1'> Mastery</h1>
-                </div>
-   
-</div>
-</div>
 
 
             </div>

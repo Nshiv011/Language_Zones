@@ -15,8 +15,9 @@ const Japan=()=>{
         <Navbar/>
         <Navbar2/>
         <div className='container-fluid'>
-            <div className='row'>
+            <div className='row jp'>
                 <div className='french'>
+
                     <img src={japanimg} className='frenchclass' />
                     <div className='icon2'>
 
@@ -36,6 +37,7 @@ const Japan=()=>{
             
                 </div>
                 <div className='learn1'>
+                <img src={jap} className='flag'/>
                     <h1 className='learn-heading'>Learn French</h1>
                     <p className='learn-french'>Learn French with Language Zone Dehradun Uttarakhand</p>
                     <p className='learn-french-body'>
@@ -43,7 +45,7 @@ const Japan=()=>{
 French is spoken as a first language in France, Haiti, Monaco and in parts of Switzerland, Belgium, Canada, and the US (notably in parts of Louisiana and New England region), and by various communities elsewhere.
 </p> 
 <p className='learn-duration'>Duration  : 3-9 Months</p>
-<img src={jap} className='flag'/>
+
                 </div>
             </div>
         </div>

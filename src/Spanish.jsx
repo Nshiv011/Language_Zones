@@ -33,6 +33,7 @@ const Spanish=()=>{
             
                 </div>
                 <div className='learn2'>
+                <img src={sflag} className='flag2'/>
                     <h1 className='learn-heading'>Learn Spanish</h1>
                     
                     <p className='learn-french-body'>Best Spanish Language Training course for beginner & Advance level in Dehadun, Uttarakhand.
@@ -48,7 +49,7 @@ Learning Spanish helps you to understand Portuguese to a large extent.
                     </p> 
 
 
-<img src={sflag} className='flag2'/>
+
                 </div>
             </div>
         </div>

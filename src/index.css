@@ -10,6 +10,7 @@ body {
 .row{
   margin-right: 0px !important;
   margin-left: 0px !important;
+  justify-content: center;
 }
 .container, .container-fluid{
   padding-left: 0px !important;
@@ -557,12 +558,13 @@ letter-spacing: 0.1px;
 .lower12{
   width: 70%;
   /* background: url(./Images/Component\ 14\ –\ 1.png) no-repeat center / cover; */
-  height: 670px;
+  /* height: 670px; */
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px;
-  margin-left: -1270px;
+  margin-top: -660px;
+  /* margin-left: -1270px; */
   background-color:forestgreen;
 }
 
@@ -622,9 +624,8 @@ margin-top: 0px;
 }
 
 .abt120{
-  height: 800px;
-margin: 37px 0px  0px;
-    margin-top: 37px;
+  /* height: 800px; */
+/* margin: 37px 0px  0px; */
 object-fit: contain;
 font-size: 22px;
 font-weight: 400;
@@ -635,7 +636,7 @@ letter-spacing: normal;
 text-align: left;
 color: #ffffff;
 padding: 50px;
-margin-top: 120px;
+/* margin-top: 120px; */
 }
 .count{
   justify-content: center !important;
@@ -657,6 +658,10 @@ margin-top: 120px;
 }
 .carousel-indicators{
   bottom: -50px !important;
+}
+.ger{
+  display: flex;
+  justify-content: center;
 }
 
 .exclusive{
@@ -1041,11 +1046,15 @@ text-align: center;
   margin-top: 12.6px;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   padding: 9.4px;  
   padding-bottom: 0px;
   border: #707070 solid 1px;
   font-weight: 700;
+  }
+  .bl{
+    display: flex;
+    justify-content: center;
   }
   .info{
     margin-bottom: 0px;
@@ -1111,8 +1120,7 @@ padding-left: 10px;
 }
 .flag{
   width: 13%;
-  margin-top: -1260px;
-margin-left: -20px;
+  margin-top: -40px;
  
 }
 .iflag{
@@ -1124,15 +1132,14 @@ margin-left: -20px;
 
 .flag2{
   width: 13%;
-  margin-top: -1760px;
-margin-left: -10px;
+  margin-top: -50px;
+/* margin-left: -10px; */
  
 }
 
 .gflag{
   width: 13%;
-  margin-top: -1540px;
-  margin-left: 50px;
+  margin-top: -40px;
  
 }
 
@@ -1155,8 +1162,7 @@ margin-left: -10px;
 text-align: center;
 background-color: #242424;
 color: white;
-margin-top: -570px;
-margin-left: 210px;
+margin-top: -410px;
 background-image: url('../src/Images/japanflag.png') ;
 object-fit: contain;
 background-size: cover;
@@ -1179,8 +1185,8 @@ margin-bottom: 110px;
 text-align: center;
 background-color: #242424;
 color: white;
-margin-top: -1010px;
-margin-left: 220px;
+margin-top: -670px;
+/* margin-left: 220px; */
 background-image: url('../src/Images/backgroung-flag.png') ;
 object-fit: contain;
 background-size: cover;
@@ -1192,15 +1198,21 @@ height: 900px;
 text-align: center;
 background-color: #242424;
 color: white;
-margin-top: -540px;
-margin-left: 280px;
+margin-top: -430px;
 background-image: url('../src/Images/gback.png') ;
 object-fit: contain;
 background-size: cover;
 
 }
 
-
+.fr{
+  display: flex;
+  justify-content: center;
+}
+.jp{
+  display: flex;
+  justify-content: center;
+}
 .icon2{
   position: absolute;
 bottom: 20px;
@@ -1211,9 +1223,9 @@ width: 57.5px;
 height: 170px;
 }
 .learn-heading{
-  width: 372px;
+  /* width: 372px; */
   height: 79px;
-  margin: 110px 353px 52px 344px;
+  /* margin: 110px 353px 52px 344px; */
   object-fit: contain;
   font-size: 59px;
   font-weight: normal;
@@ -1221,8 +1233,10 @@ height: 170px;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
+  margin-top: 30px;
+margin-bottom: 40px;
 }
 .learn-heading2{
   width: 342px;
@@ -1401,7 +1415,7 @@ height: 170px;
   width: 70%;
   text-align: center;
   padding: 10px;
-  margin-left: 230px;
+  /* margin-left: 230px; */
   color: white;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -1414,7 +1428,7 @@ height: 170px;
   width: 70%;
   text-align: center;
   padding: 10px;
-  margin-left: 230px;
+  /* margin-left: 230px; */
   color: white;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -1432,7 +1446,7 @@ height: 170px;
 .levelbody{
 width: 70%;
 text-align: justify;
-margin-left: 230px;
+/* margin-left: 230px; */
 padding-left: 80px;
 padding-right: 90px;
 padding-top: 80px;
@@ -1834,6 +1848,15 @@ a:visited{
   .Component-1-1{
     margin-top: 7px;
   }
+  .contact-abt11{
+    font-size: 23px;
+  }
+  .contact-lower{
+    
+    width: 90%;
+  }
+  
+  
  
   
   
@@ -1844,8 +1867,7 @@ a:visited{
     font-size: 17px !important;
 
   }
-  
-  
+
   
 }
 
@@ -1859,6 +1881,10 @@ a:visited{
 .no{
   margin-left: -15px ;
 }
+.content{
+  font-size: 20px;
+}
+
 
 
 }

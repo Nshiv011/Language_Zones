@@ -1939,7 +1939,8 @@ a:visited{
     height: 149.1px; 
 }
 .text-block {
-  top: 300px;
+  top: -20px;
+  position: relative;
   padding-left: 25px;
 padding-right: 30px;
 padding-top: 7px;

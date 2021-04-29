@@ -1955,6 +1955,7 @@ padding-bottom: 4.5px;
   justify-content: center;
   padding-bottom: 0px;
   padding-top: 15px;
+  width: 0px !important;
 }
 .card{
   width: 70%;

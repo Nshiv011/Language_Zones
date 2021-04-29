@@ -21,12 +21,12 @@ const Exclusive=()=>{
 </div>
 <div className="container-fluid mb-5">
             <div className="row">
-                <div className="col-10 mx-auto ">
+                <div className="col-10 mx-auto heme ">
                     <div className="row gy-4 ecard">
                     
 
 
-                    <div className="col-md-4 ">
+                    <div className="col-md-4 heme ">
                             <div class="ecard1">
                                 <img src={card1} className="icard1" />
                                 <div className="card-body">
@@ -40,7 +40,7 @@ Our faculty is from the best institutes around the world such as IITD, Stanford 
                         </div>
 
 
-                        <div className="col-md-4 ">
+                        <div className="col-md-4 heme">
                             <div class="ecard2">
                                 <img src={card2} className="icard1"/>
                                 <div className="card-body">
@@ -53,7 +53,7 @@ An incredible mentor support is provided where 1 teaching assistant is assigned 
                             </div>
                         </div>
 
-                        <div className="col-md-4 ">
+                        <div className="col-md-4 heme ">
                             <div class="ecard3">
                                 <img src={card3} className="icard3"/>
                                 <div className="card-body">

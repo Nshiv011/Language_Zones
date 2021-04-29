@@ -18,7 +18,7 @@ const Footer=()=>{
     <h1 className='note'> Leave us quick note</h1>
     <div class="container">
     <div class="row">
-    <div class="col-sm-5">
+    <div class="col-sm-5 heme">
 
     <form className='form1'  >
         <input type="text" 

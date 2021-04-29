@@ -1959,7 +1959,7 @@ padding-bottom: 4.5px;
 }
 .card{
   width: 70%;
-  height: 330px;
+  height: 320px;
   background-color: #d2d2d2 !important;
   border: 5px solid #454242 !important;
 }
@@ -1980,7 +1980,7 @@ padding-bottom: 4.5px;
   font-size: 14.3px;
 }
 .icon{
-  top:351px;
+  top:391px;
 
 }
 .country{
@@ -2001,6 +2001,12 @@ padding-bottom: 4.5px;
   background-color:#fff7f7 ;
   padding-bottom: 10px;
 
+}
+.heroo{
+  background-size: 120%;
+}
+.hero {
+  height: 179.1px;
 }
 .footer{
   height: 1180px;

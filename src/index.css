@@ -1980,9 +1980,7 @@ padding-bottom: 4.5px;
 .abt{
   font-size: 50px;
 }
-.cards{
-  /* background-color: #e5e5e5; */
-}
+
 .abt1{
   padding: 5px;
   font-size: 14.3px;
@@ -2018,6 +2016,7 @@ padding-bottom: 4.5px;
 }
 .footer{
   height: 1180px;
+  position: unset !important;
   
 }
 .control-prev{

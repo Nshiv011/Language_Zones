@@ -1972,7 +1972,9 @@ padding-bottom: 4.5px;
 .abt{
   font-size: 50px;
 }
-
+.cards{
+  /* background-color: #e5e5e5; */
+}
 .abt1{
   padding: 5px;
   font-size: 14.3px;
@@ -2091,11 +2093,7 @@ background-color:#fff7f7 ;
 .pduration1{
   font-size: 12.5px;
 }
-<<<<<<< HEAD
 .card-img-top {
   height: 130px;
 }
 }
-=======
-}
->>>>>>> e4288bd888dbf32c8fa0f897ed72870f933cabf4

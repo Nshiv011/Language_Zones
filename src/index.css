@@ -569,15 +569,7 @@ letter-spacing: 0.1px;
   background: url(./Images/Component\ 15\ –\ 1.png) no-repeat center / cover;
   margin-top: 100px;
 }
-.carousel-item{
-  position: unset !important;
-}
-.carousel {
-  position: unset !important;
-}
-.carousel-inner{
-  position: unset !important;
-}
+
 .heme{
   position: unset !important;
 }
@@ -2126,10 +2118,19 @@ background-color:#fff7f7 ;
 }
 .carousel-control-prev{
   top: 2852px !important;
-left: -11px !important;
+
 }
 .carousel-control-next{
   top: 2852px !important;
-  right: -11px !important;
+ 
+}
+.carousel-item{
+  position: unset !important;
+}
+.carousel {
+  position: unset !important;
+}
+.carousel-inner{
+  position: unset !important;
 }
 }

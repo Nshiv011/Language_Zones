@@ -2028,6 +2028,12 @@ padding-bottom: 4.5px;
   height: 1180px;
   
 }
+.control-prev{
+  top: 2018px;
+}
+.carousel-control-next {
+  right: -60px;
+}
 .leave{
   margin-left: 20px;
   border-right: 0px solid;
@@ -2117,5 +2123,13 @@ background-color:#fff7f7 ;
 }
 .card-img-top {
   height: 130px;
+}
+.carousel-control-prev{
+  top: 2852px !important;
+left: -11px !important;
+}
+.carousel-control-next{
+  top: 2852px !important;
+  right: -11px !important;
 }
 }

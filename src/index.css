@@ -561,7 +561,7 @@ letter-spacing: 0.1px;
   height: 400px;
   background: url(./Images/Component\ 15\ –\ 1.png) no-repeat center / cover;
   margin-top: 100px;
-  position: unset !important;
+  position: relative;
 }
 .upper12{
   width: 100%;
@@ -571,10 +571,10 @@ letter-spacing: 0.1px;
 }
 
 .heme{
-  position: unset !important;
+  position:relative;
 }
 .lala{
-  position: unset !important;
+  position: relative;
 }
 
 .lower{
@@ -2124,13 +2124,13 @@ background-color:#fff7f7 ;
  
 }
 .carousel-item{
-  position: unset !important;
+  position: relative !important;
 }
 .carousel {
-  position: unset !important;
+  position: relative !important;
 }
 .carousel-inner{
-  position: unset !important;
+  position: relative !important;
 }
 .con {
   position: relative;
@@ -2176,5 +2176,26 @@ background-color:#fff7f7 ;
 }
 .icon2{
   top:190px;
+  width: 37.5px;
+height: 130px;
+
+}
+.icon{
+  width: 43px;
+  
+  
+
+}
+.form{
+  padding: 8.2px;
+ 
+}
+.whatsapp{
+  padding: 8.2px;
+
+}
+.message{
+  padding: 8.2px;
+  
 }
 }

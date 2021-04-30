@@ -576,6 +576,7 @@ letter-spacing: 0.1px;
 .lala{
   position: unset !important;
 }
+
 .lower{
   width: 80%;
   /* background: url(./Images/Component\ 14\ –\ 1.png) no-repeat center / cover; */
@@ -1265,9 +1266,9 @@ background-size: cover;
   justify-content: center;
 }
 .icon2{
-  position: absolute;
-bottom: 20px;
+  position: fixed;
 right: 0px;
+top: 200px;
 background-color: white;
 color: white;
 width: 57.5px;
@@ -2130,5 +2131,50 @@ background-color:#fff7f7 ;
 }
 .carousel-inner{
   position: unset !important;
+}
+.con {
+  position: relative;
+  top: 250px;
+}
+.contact-abt{
+  font-size: 40px;
+}
+.contact-abt11{
+  font-size: 12.9px;
+  padding-top: 4px;
+}
+.block{
+  width: 100%;
+}
+.info p{
+  font-size: 20px;
+}
+.info2 {
+  font-size: 25.7px;
+}
+.info3 {
+  font-size: 14.4px;
+}
+.hemee{
+  position: relative;
+}
+.contact-lower{
+  position: relative;
+  margin-bottom: 250px;
+  height: 1216px;
+  width: 100%;
+  top:70px
+
+}
+.contact-upper{
+  position: relative;
+}
+.map{
+  bottom: 20px;
+  left:-17.2px;
+
+}
+.icon2{
+  top:190px;
 }
 }

@@ -7,7 +7,7 @@ const ContactL=()=>{
     return(
         <>
        <div className='container-fluid'>
-           <div className='row '>
+           <div className='row hemee'>
                 <div className='heroimg'>
                     <img src={heroimg} className='heroimage'/>
                     <Icon/>
@@ -32,7 +32,7 @@ const ContactL=()=>{
                             <div className='block'>
                                     <div class='border1'>
                                         <p className='info'>Mail Us</p>
-                                        <p className="info"><a href="mailto:info@brillicaservices.com">info@brillicaservices.com</a> </p>
+                                        <p className="info"><a href="mailto:info@brillicaservices.com"><p>info@brillicaservices.com</p></a> </p>
                                     </div>                                
                             </div>
                         </div>

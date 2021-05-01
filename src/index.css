@@ -2117,11 +2117,11 @@ background-color:#fff7f7 ;
 }
 .carousel-control-prev{
   top: 2852px !important;
-
+  position: relative;
 }
 .carousel-control-next{
   top: 2852px !important;
- 
+ position: relative;
 }
 .carousel-item{
   position: relative !important;

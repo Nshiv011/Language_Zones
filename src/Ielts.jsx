@@ -17,7 +17,7 @@ const Ielts=(props)=>{
         <div className='container-fluid'>
             <div className='row'>
                 <div className='ielts'>
-                    <img src={ieltsimg} className='frenchclass' />
+                    <img src={ieltsimg} className='iclass' />
                     <div className='icon2'>
 
                 <div className='form'>

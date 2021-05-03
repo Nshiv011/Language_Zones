@@ -17,7 +17,7 @@ const German=()=>{
         <div className='container-fluid'>
             <div className='row ger'>
                 <div className='french'>
-                    <img src={germanimg} className='frenchclass' />
+                    <img src={germanimg} className='germanclass' />
                     <div className='icon2'>
 
                 <div className='form'>

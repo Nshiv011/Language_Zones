@@ -1169,6 +1169,16 @@ padding-left: 10px;
 }
 .frenchclass{
   width: 100%;
+  
+}
+.iclass{
+  width: 100%;
+}
+.japanclass{
+  width: 100%;
+}
+.germanclass{
+  width: 100%;
 }
 .flag{
   width: 13%;
@@ -1237,7 +1247,7 @@ margin-bottom: 110px;
 text-align: center;
 background-color: #242424;
 color: white;
-margin-top: -670px;
+margin-top: -900px;
 /* margin-left: 220px; */
 background-image: url('../src/Images/backgroung-flag.png') ;
 object-fit: contain;
@@ -2203,12 +2213,54 @@ height: 130px;
 }
 .learn3{
   width: 100%;
-  margin-top: -80px;
-  opacity: 0.9;
+  margin-top: 0px;
+  position: relative;
+  /* opacity: 0.9; */
 }
-.learn-german {
-  padding-left: 10px;
+.learn22{
+  width: 100%;
+  position: relative;
+  top:370px;
+}
+.learn1{
+  width: 100%;
+  position: relative;
+  top:80px;
+}
+.learn2{
+  position: relative;
+  top: 550px;
+  width: 100%;
+  height: 1180px;
+}
+.flag2{
+  width: 29%;
+}
+.levelSPAN{
+  width: 100%;
+}
+.levelSs{
+  position: relative;
+  margin-top: 470px;
+}
+.french {
+  width: 100%;
+  position: relative;
+  top: 320px;
+}
+.flag{
+  width: 27%;
+}
+.learn-german, .learn-french {
+  padding-left: 20px;
   font-size: 20px;
+}
+.learn-duration{
+  padding-left: 20px;
+}
+.level{
+  position: relative;
+  margin-top:400px;
 }
 .gflag {
     width: 23%
@@ -2241,6 +2293,7 @@ padding-right: 20px;
   }
   .levelbody{
     width: 100%;
+    padding-bottom: 0px;
   }
   .levelLearnbody {
     font-size: 14px;
@@ -2255,11 +2308,78 @@ padding-right: 20px;
   width: 100%;
   padding: 0px;
 }
+.jp{
+  position: relative;
+  top: 320px;
+}
+.right{
+  display: none !important;
+}
+.frenchclass{
+  position: relative;
+  top:-320px;
+}
+.germanclass{
+  position: relative;
+  top: -320px;
+
+}
   .levelp{
     margin-left: 0px;
     margin-right: 0px ;
     font-size: 15.6px;
   }
+.japanclass{
+  position: relative;
+  top:-640px;
+}
+.iclass{
+  top: 0px;
+  position: relative;
+}
+.learn110{
+  position: relative;
+  top: 450px;
+  width: 100%;
+}
+.levelL{
+  position: relative;
+  margin-top: 340px;
+}
+.learn-ielts-body{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.lower121{
+  width: 100%;
+}
+.abt120{
+  padding: 0px;
 
+}
+.data1{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.data1img{
+  width: 100%;
+  height: 500px;
+}
+
+.data2{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.data2img{
+  width: 100%;
+  height: 500px;
+}
+
+.test12{
+  font-size: 14.4px !important;
+}
+.test{
+  font-size: 25.4px !important;
+}
 
 }

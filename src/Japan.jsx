@@ -18,7 +18,7 @@ const Japan=()=>{
             <div className='row jp'>
                 <div className='french'>
 
-                    <img src={japanimg} className='frenchclass' />
+                    <img src={japanimg} className='japanclass' />
                     <div className='icon2'>
 
                 <div className='form'>

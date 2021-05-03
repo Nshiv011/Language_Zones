@@ -2125,14 +2125,14 @@ background-color:#fff7f7 ;
 .card-img-top {
   height: 130px;
 }
-.carousel-control-prev{
+/* .carousel-control-prev{
 
-  position: unset;
+  position: relative;
 }
 .carousel-control-next{
 
  position: unset;
-}
+} */
 .carousel-item{
   position: unset !important;
 }
@@ -2142,6 +2142,13 @@ background-color:#fff7f7 ;
 .carousel-inner{
   position: unset !important;
 }
+.carousel-indicators{
+  bottom: -2350px !important;
+}
+.carousel-control-next, .carousel-control-prev{
+top:2900px
+}
+.lower{width: 100% !important;}
 .con {
   position: unset;
   top: 250px;

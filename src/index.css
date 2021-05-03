@@ -2198,4 +2198,68 @@ height: 130px;
   padding: 8.2px;
   
 }
+.ger{
+  position: relative;
+}
+.learn3{
+  width: 100%;
+  margin-top: -80px;
+  opacity: 0.9;
+}
+.learn-german {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.gflag {
+    width: 23%
+  }
+  .learn-french-body{
+    font-size: 20px;
+    padding-left: 20px;
+padding-right: 20px;
+  }
+  .levelSgerman{
+    margin-top: 0px;
+  }
+  .levelgerman{
+    margin-left: 0px;
+  }
+  .levelgerman h1{
+    font-size: 1.8rem;
+  }
+  .levelSgerman{
+    position: relative;
+  }
+  .yellow2, .red2, .purple2, .blue2, .green2, .orange2 {
+    text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 10px   ;
+  }
+  .levelL{
+    width: 100%;
+  }
+  .levelbody{
+    width: 100%;
+  }
+  .levelLearnbody {
+    font-size: 14px;
+
+}
+.levelbody{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.lower12{
+  width: 100%;
+  padding: 0px;
+}
+  .levelp{
+    margin-left: 0px;
+    margin-right: 0px ;
+    font-size: 15.6px;
+  }
+
+
 }

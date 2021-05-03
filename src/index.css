@@ -1186,7 +1186,7 @@ padding-left: 10px;
  
 }
 .iflag{
-  width: 13%;
+  width: 28.4%;
   margin-top: -50px;
   /* margin-left: 50px; */
  
@@ -2127,23 +2127,23 @@ background-color:#fff7f7 ;
 }
 .carousel-control-prev{
 
-  position: relative;
+  position: unset;
 }
 .carousel-control-next{
 
- position: relative;
+ position: unset;
 }
 .carousel-item{
-  position: relative !important;
+  position: unset !important;
 }
 .carousel {
-  position: relative !important;
+  position: unset !important;
 }
 .carousel-inner{
-  position: relative !important;
+  position: unset !important;
 }
 .con {
-  position: relative;
+  position: unset;
   top: 250px;
 }
 .contact-abt{
@@ -2166,18 +2166,19 @@ background-color:#fff7f7 ;
   font-size: 14.4px;
 }
 .hemee{
-  position: relative;
+  position: unset;
 }
 .contact-lower{
-  position: relative;
-  margin-bottom: 290px;
+  position: unset;
+  /* margin-bottom: 290px; */
+  margin-top: 0px;
   height: 1216px;
   width: 100%;
   top:70px
 
 }
 .contact-upper{
-  position: relative;
+  display: none;
 }
 .map{
   bottom: 20px;
@@ -2209,43 +2210,50 @@ height: 130px;
   
 }
 .ger{
-  position: relative;
+  position: unset;
 }
 .learn3{
   width: 100%;
   margin-top: 0px;
-  position: relative;
+  position: unset;
   /* opacity: 0.9; */
 }
 .learn22{
   width: 100%;
-  position: relative;
+  position: unset;
   top:370px;
+  margin-top: 0px;
 }
 .learn1{
   width: 100%;
-  position: relative;
+  position: unset;
   top:80px;
+  margin-top: 0px;
+}
+.le{
+  margin-top: 0px;
 }
 .learn2{
-  position: relative;
+  position: unset;
   top: 550px;
   width: 100%;
   height: 1180px;
+  margin-top: -160px;
 }
 .flag2{
   width: 29%;
 }
 .levelSPAN{
   width: 100%;
+  margin-top: 10px;
 }
 .levelSs{
-  position: relative;
-  margin-top: 470px;
+  position: unset;
+  /* margin-top: 470px; */
 }
 .french {
   width: 100%;
-  position: relative;
+  position: unset;
   top: 320px;
 }
 .flag{
@@ -2259,8 +2267,8 @@ height: 130px;
   padding-left: 20px;
 }
 .level{
-  position: relative;
-  margin-top:400px;
+  position: unset;
+  margin-top:10px;
 }
 .gflag {
     width: 23%
@@ -2280,7 +2288,7 @@ padding-right: 20px;
     font-size: 1.8rem;
   }
   .levelSgerman{
-    position: relative;
+    position: unset;
   }
   .yellow2, .red2, .purple2, .blue2, .green2, .orange2 {
     text-align: center;
@@ -2290,6 +2298,7 @@ padding-right: 20px;
   }
   .levelL{
     width: 100%;
+    
   }
   .levelbody{
     width: 100%;
@@ -2309,18 +2318,18 @@ padding-right: 20px;
   padding: 0px;
 }
 .jp{
-  position: relative;
+  position: unset;
   top: 320px;
 }
 .right{
   display: none !important;
 }
 .frenchclass{
-  position: relative;
+  position: unset;
   top:-320px;
 }
 .germanclass{
-  position: relative;
+  position: unset;
   top: -320px;
 
 }
@@ -2330,21 +2339,24 @@ padding-right: 20px;
     font-size: 15.6px;
   }
 .japanclass{
-  position: relative;
+  position: unset;
   top:-640px;
 }
 .iclass{
   top: 0px;
-  position: relative;
+  position: unset;
 }
 .learn110{
-  position: relative;
+  position: unset;
   top: 450px;
   width: 100%;
+  margin-top: -120px;
+  opacity: 1;
 }
+
 .levelL{
-  position: relative;
-  margin-top: 340px;
+  position: unset;
+  /* margin-top: 340px; */
 }
 .learn-ielts-body{
   padding-left: 20px;
@@ -2352,9 +2364,13 @@ padding-right: 20px;
 }
 .lower121{
   width: 100%;
+  padding: 0px;
+}
+.hell{
+  position: unset !important;
 }
 .abt120{
-  padding: 0px;
+  padding: 30px;
 
 }
 .data1{
@@ -2379,7 +2395,7 @@ padding-right: 20px;
   font-size: 14.4px !important;
 }
 .test{
-  font-size: 25.4px !important;
+  font-size: 35px !important;
 }
 .upper{
   display: none;

@@ -25,7 +25,7 @@ const Course2=(props)=>{
                             <div class="card">
                                 <img src={card1} height='150px' width='200px' className="card-img-top" alt=""/>
                                 <div className="card-body">
-                                        <p className="Component40">German Language<br/></p><p>(Deutsche Sprache)</p>
+                                        <p className="Component40">German <br/></p><p>(Deutsche Sprache)</p>
                                         <h4 className='duration'>Duration - 4-12 Months</h4>
                                     <NavLink to="/german" className="btn btn-success btn-botton">
                                         View More

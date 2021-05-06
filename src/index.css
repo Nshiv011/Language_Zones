@@ -27,6 +27,146 @@ code {
 
 /* zeplin */
 
+/* ?form */
+.formp h1{
+  font-size: 23px;
+text-align:center;
+font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+.formp h2{font-size:29px;
+text-align:center;
+font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+
+}
+.formp p{
+text-align:center;
+font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+
+
+    font-size: 1.0rem;
+    line-height: 0.0;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+
+}
+.h{margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.header {
+    padding: 24px 0 24px 0;
+font-size: 2.4rem;
+    line-height: 1.33333;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    padding: 0 0 4px 0;
+}
+.content{ padding: 4px 0 12px 0;
+   }
+.footer{ padding: 3px 0 8px 0;
+   }
+   .modal.show .modal-dialog{
+     justify-content: center !important;
+   }
+   .modal-content{
+     width: 60% !important;
+     background-color: #e9e9f0;
+   }
+.formp{background-color: white;
+  width: 90%;
+  height: 33.3%;
+  padding: 16.1px;
+      padding-top: 16.1px;
+  padding-top: 20px;
+  padding-top: 12.5px;
+  margin-bottom: 2px;
+
+   }
+
+   .formp a{font-weight: 600;
+    background-color: transparent;
+    border: 0;
+    color: #0073b1;
+        margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+cursor: pointer;
+text-decoration: none;
+}
+
+
+
+.formp input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.formp input[type=text]:focus, input[type=password]:focus, input[type=email] {
+  background-color: #ddd;
+  outline: none;
+}
+
+.formp hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.formp button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.formp button:hover {
+  opacity:1;
+  color: white;
+  background-color: forestgreen;
+}
+
+
+ .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+width: 384px;
+    margin: auto;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* Form end */
+
+
   
 
 
@@ -2415,5 +2555,11 @@ padding-right: 20px;
 }
 .lala{
   position: relative !important;
+}
+.modal-content{
+  width: 100%;
+}
+.formp{
+  width: 100%;
 }
 }

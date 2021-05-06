@@ -25,6 +25,7 @@ const App=()=>{
         <Route exact path='/ielts' component={Ielts}/>
         <Route exact path='/privacy' component={Privacy}/>
         <Route exact path='/terms' component={Terms}/>
+        
         </Switch>
        
         </>

@@ -2288,7 +2288,7 @@ background-color:#fff7f7 ;
 .carousel-control-next, .carousel-control-prev{
 top:2900px
 }
-.lower{width: 100% !important;}
+.lower{width: 90% !important;}
 .con {
   position: unset;
   top: 250px;

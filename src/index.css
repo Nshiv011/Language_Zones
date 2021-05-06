@@ -2291,7 +2291,7 @@ top:2900px
 .carousel-control-next{
   right: 0px !important;
 }
-.lower{width: 90% !important;}
+.lower{width: 100% !important;}
 .con {
   position: unset;
   top: 250px;

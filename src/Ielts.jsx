@@ -4,9 +4,9 @@ import ieltsflag from './Images/ieltsflag.png'
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
 import Footer from './Footer';
-import data1 from '../src/Images/data1.png'
-import data2 from '../src/Images/data2.png'
-
+import data1 from '../src/Images/data1.png';
+import data2 from '../src/Images/data2.png';
+import Icon from "./Icon";
 const Ielts=(props)=>{
     return(
 <>
@@ -18,21 +18,7 @@ const Ielts=(props)=>{
             <div className='row'>
                 <div className='ielts'>
                     <img src={ieltsimg} className='iclass' />
-                    <div className='icon2'>
-
-                <div className='form'>
-                <i class="fa fa-wpforms fa-2x"></i>
-                </div>
-
-                <div className='whatsapp'>
-                <i class="fa fa-whatsapp fa-2x"></i>
-                </div>
-
-                <div className='message'>
-                <i class="fa fa-envelope fa-2x"></i>
-                </div>
-
-            </div>
+                    <Icon/>
             
                 </div>
                 <div className='learn110'>

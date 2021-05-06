@@ -6,6 +6,7 @@ import Box2 from './Box2';
 import japanimg from '../src/Images/japan.png';
 import japanflag from '../src/Images/japanflag.png';
 import jap from '../src/Images/jap.png';
+import Icon from "./Icon";
 
 
 
@@ -19,21 +20,7 @@ const Japan=()=>{
                 <div className='french'>
 
                     <img src={japanimg} className='japanclass' />
-                    <div className='icon2'>
-
-                <div className='form'>
-                <i class="fa fa-wpforms fa-2x"></i>
-                </div>
-
-                <div className='whatsapp'>
-                <i class="fa fa-whatsapp fa-2x"></i>
-                </div>
-
-                <div className='message'>
-                <i class="fa fa-envelope fa-2x"></i>
-                </div>
-
-            </div>
+                    <Icon/>
             
                 </div>
                 <div className='learn1'>

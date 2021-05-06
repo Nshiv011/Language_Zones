@@ -5,6 +5,7 @@ import frenchimg from '../src/Images/french.png';
 import flag from '../src/Images/flaf.png';
 import Box from './Box';
 import Footer from './Footer';
+import Icon from "./Icon";
 
 const French=()=>{
     return(
@@ -15,21 +16,7 @@ const French=()=>{
             <div className='row'>
                 <div className='french'>
                     <img src={frenchimg} className='frenchclass' />
-                    <div className='icon2'>
-
-                <div className='form'>
-                <i class="fa fa-wpforms fa-2x"></i>
-                </div>
-
-                <div className='whatsapp'>
-                <i class="fa fa-whatsapp fa-2x"></i>
-                </div>
-
-                <div className='message'>
-                <i class="fa fa-envelope fa-2x"></i>
-                </div>
-
-            </div>
+                    <Icon/>
             
                 </div>
                 <div className='learn22'>

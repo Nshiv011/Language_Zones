@@ -2,7 +2,7 @@ import React from 'react';
 import heroimg from '../src/Images/heroimg.png';
 import map from '../src/Images/Capture.png';
 import GoogleApiWrapper from './Google';
-import Icon from './Icons'
+import Icon from './Icon';
 const ContactL=()=>{
     return(
         <>

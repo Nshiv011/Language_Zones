@@ -2557,9 +2557,19 @@ padding-right: 20px;
   position: relative !important;
 }
 .modal-content{
-  width: 100%;
+  width: 100% !important;
 }
 .formp{
   width: 100%;
 }
+.formp input[type=text], input[type=password], input[type=email] {
+  width: 80%;}
+  .formp button {
+
+    
+  }
+  .formp button {
+    width: 80%;
+  }
+
 }

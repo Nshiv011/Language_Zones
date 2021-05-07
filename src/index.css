@@ -100,7 +100,7 @@ text-decoration: none;
 
 
 
-.formp input[type=text], input[type=password] {
+.formp input[type=text], input[name=mail] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -108,8 +108,18 @@ text-decoration: none;
   border: none;
   background: #f1f1f1;
 }
+.formp label[for=course]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  text-align: center;
 
-.formp input[type=text]:focus, input[type=password]:focus {
+}
+
+.formp input[type=text]:focus, input[name=mail]:focus {
   background-color: #ddd;
   outline: none;
 }

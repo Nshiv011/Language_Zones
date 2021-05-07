@@ -30,11 +30,20 @@ function MyVerticallyCenteredModal(props) {
     <input type="text" placeholder="Enter Name" name="name" required/>
 
     <label for="psw">       </label>
-    <input type="email" placeholder="Enter Email" name="email" required/>
+    <input type="email" placeholder="Enter Email" name="mail" required/>
 
-    <label for="pwd">       </label>
-    <input type="password" placeholder="Enter Password" name="email" required/>
+    <label for="course"> -------  Select Course  -------   </label><br/>
 
+    <input type="radio" id="German Language" name="German Language" value="German Language"/>
+  <label for="German Language">German Language</label><br/> 
+  <input type="radio" id="French Language" name="French Language" value="French Language"/>
+  <label for="French Language">French Language</label><br/>
+  <input type="radio" id="Spanish Language" name="gender" value="Spanish Language"/>
+  <label for="Spanish Language">Spanish Language</label><br/>
+  <input type="radio" id="Japanese Language" name="gender" value="Japanese Language"/>
+  <label for="Japanese Language">Japanese Language</label><br/>
+  <input type="radio" id="IELTS" name="gender" value="IELTS"/>
+  <label for="IELTS">IELTS</label><br/>
     <div class="clearfix">
 <button type="submit" class="signupbtn">SUBMIT </button>    
 <button type="button" class="cancelbtn"> CANCLE</button>
